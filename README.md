@@ -30,3 +30,5 @@ hooks: Custom hooks for accessing context values.
 axios.js: Axios configuration for API requests.
 App.js: Main component that sets up the app's structure.
 index.js: Entry point for rendering the app.
+
+# NB use new API if the current has expired
