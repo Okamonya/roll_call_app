@@ -26,7 +26,7 @@ function Register() {
     }
     return (
         <section>
-            <div className='.register_form'>
+            <div className='container .register_form'>
                 <h1>Register User</h1>
                 <form onSubmit={handleSubmit}>
                     <div>

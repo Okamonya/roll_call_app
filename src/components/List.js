@@ -15,7 +15,7 @@ function List() {
 
     return (
         <section>
-            <div>
+            <div className='container'>
                 <h1>List of users</h1>
                 <div>
                     <table>
