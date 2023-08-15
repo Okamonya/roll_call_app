@@ -38,11 +38,13 @@ function List() {
                                         <td>{secondName}</td>
                                         <td>{isPresent ? 'Present' : 'Absent'}</td>
                                         <td>
+                                            <button onClick={() => toggleAttendance(id, isPresent)}>
+                                                Present?
+                                            </button>
+                                        </td>
+                                        <td>
                                             <button onClick={() => updateUser(id)}>Edit</button>
                                             <button onClick={() => deleteUser(id)}>Delete</button>
-                                            <button onClick={() => toggleAttendance(id, isPresent)}>
-                                                Toggle Attendance
-                                            </button>
                                         </td>
                                     </tr>
                                 );
