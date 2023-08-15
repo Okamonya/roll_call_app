@@ -1,4 +1,4 @@
-# User Management App
+# User Management & Roll call App
 Welcome to the User Management App! This application allows you to manage user data, including adding, updating, and deleting users. Additionally, you can mark user attendance with a roll call feature.
 
 Features
